@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
  
 
   s.name         = "TestPod"
-  s.version      = "0.0.1"
+  s.version      = "0.0.4"
   s.summary      = "objc"
 
 
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
 
 
-  s.source       = { :git => "https://github.com/chengxuyuan1/TestPod.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/chengxuyuan1/TestPod.git", :tag => s.version.to_s}
 
 
 
