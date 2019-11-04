@@ -11,12 +11,11 @@ Pod::Spec.new do |s|
   
   s.author     = { "Mr Huang" => "515664633@qq.com" }
 
-  s.source           = { :git => 'https://github.com/chengxuyuan1/TestPod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/chengxuyuan1/TestPod.git', :tag => "v#{s.version}" }
 
 
   s.platform     = :ios
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
-  s.framework    = 'UIKit', 'QuartzCore'
-  s.source_files = 'TestPod/*.{h,m}'
+  s.source_files = 'TestPod/*.{h,m,swift}'
 end
