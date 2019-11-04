@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "TestPod"
   spec.version      = "0.0.1"
-  #spec.summary      = "my ************************************TestPod."
+  spec.summary      = "my ****************************888888888888888888888888888888888iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii********TestPod."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
