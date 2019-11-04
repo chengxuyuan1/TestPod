@@ -19,4 +19,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.framework    = 'UIKit', 'QuartzCore'
   s.source_files = 'TestPod/*.{h,m}'
+  git tag 'v0.0.4'
 end
