@@ -1,33 +1,34 @@
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
 
  
 
-  spec.name         = "TestPod"
-  spec.version      = "0.0.1"
-  spec.summary      = "objc"
+  s.name         = "TestPod"
+  s.version      = "0.0.1"
+  s.summary      = "objc"
 
-  
-  spec.description  = <<-DESC
-                   DESC
 
-  spec.homepage     = "http://EXAMPLE/TestPod"
-  
 
-  spec.license      = "MIT (example)"
+  s.homepage     = "https://github.com/chengxuyuan1/TestPod"
+
+
+  s.license      = "MIT"
   
 
-  spec.author             = { "Mr Huang" => "afan@wtalking.com" }
+  s.author             = { "Mr Huang" => "515664633@qq.com" }
 
 
 
-  spec.source       = { :git => "http://EXAMPLE/TestPod.git", :tag => "#{spec.version}" }
+  s.source       = { :git => "https://github.com/chengxuyuan1/TestPod.git", :tag => s.version.to_s }
 
 
 
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  s.platform     = :ios
+  s.ios.deployment_target = '8.0'
+  s.requires_arc = true
+  s.framework    = 'UIKit', 'QuartzCore'
+  s.source_files = 'TestPod/*.{h,m}'
 
   
 
