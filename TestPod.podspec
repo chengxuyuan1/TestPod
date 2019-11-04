@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TestPod"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "objc"
 
   s.homepage     = "https://github.com/chengxuyuan1/TestPod"
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   
   s.author     = { "Mr Huang" => "515664633@qq.com" }
 
-  s.source = {:git =>"https://github.com/chengxuyuan1/TestPod.git",:tag => s.version.to_s}
+  s.source           = { :git => 'https://github.com/chengxuyuan1/TestPod.git', :tag => s.version.to_s }
 
 
   s.platform     = :ios
